@@ -7,7 +7,7 @@ from st_aggrid.shared import GridUpdateMode
 from st_aggrid.shared import JsCode
 
 
-
+import streamlit.components.v1 as components
 
 # In[3]:
 
@@ -19,7 +19,7 @@ import requests
 import pandas_profiling
 from streamlit_pandas_profiling import st_profile_report
 
-df = pd.read_excel("https://www2.census.gov/programs-surveys/mhs/tables/2022/puf2022.xls")
+# df = pd.read_excel("https://www2.census.gov/programs-surveys/mhs/tables/2022/puf2022.xls")
 st.set_page_config(
     layout="wide"
 )
@@ -27,8 +27,8 @@ tab1, tab2, tab3 = st.tabs(["Metric", "Overview", "Code"])
 
 with tab2:
     st.title("Report")
-    pr = df.profile_report()
-    st_profile_report(pr)
+    # pr = df.profile_report()
+    # st_profile_report(pr)
 with tab1:
     st.title("Measurements")
     st.metric(label="Total number of phd granting institutes", value="2000")
