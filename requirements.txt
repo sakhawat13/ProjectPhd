@@ -6,7 +6,7 @@ DateTime
 investpy
 numpy
 scipy
-sklearn
+scikit-learn
 yfinance
 openpyxl
 ta
