@@ -1,0 +1,30 @@
+﻿New Added Columns: 
+
+
+NewAffiliations => The value of previous “Affiliations” column separated into a list inside a cell
+
+
+NewAllEmployer => Employers for each author
+
+
+NewAllEmploymentYear => Years worked under this employer
+
+
+NewAllEmploymentDuration => Duration under this employer
+
+
+NewIsEmployerUni => 
+                        0 : If the employers doesn't fit the Uni List
+                        1 : If the employers fits the Uni List
+
+
+NewEmploymentStart => Starting date under this employer
+
+
+NewCarrerStart => Earliest year date in the data for each Author
+
+
+NewPhdGrantInst => Name of the institutes by following conditions:
+                        -Career start date = EmploymentStart date
+                        -IsEmployerUni = 1
+                        -EmploymentDuration is between 4 year - 6 years
