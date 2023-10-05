@@ -46,7 +46,7 @@ with tab2:
             "Google Drive Folder [link](https://drive.google.com/drive/folders/14RCqFVpP_Ubw5K-f_pzEIqg1GdayZHJ9?usp=drive_link)")
 
         st.write("Top 100 University List with Acronym and Location")
-        url = 'https://drive.google.com/file/d/1pKhAaHpV3bvsADYG9VH0N1lQ38YkpVbW/view?usp=drive_link'
+        url = 'https://drive.google.com/file/d/1pKhAaHpV3bvsADYG9VH0N1lQ38YkpVbW/view?usp=sharing'
         if st.button('Download',key=1):
             webbrowser.open_new_tab(url)
 
