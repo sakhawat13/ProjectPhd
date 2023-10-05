@@ -1,5 +1,5 @@
 streamlit-aggrid
-streamlit 1.
+streamlit
 pandas
 click==8
 DateTime
