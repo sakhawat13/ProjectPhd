@@ -46,27 +46,27 @@ with tab2:
             "Google Drive Folder [link](https://drive.google.com/drive/folders/14RCqFVpP_Ubw5K-f_pzEIqg1GdayZHJ9?usp=drive_link)")
 
         st.write("Top 100 University List with Acronym and Location")
-        url = 'https://drive.google.com/file/d/1pKhAaHpV3bvsADYG9VH0N1lQ38YkpVbW/view?usp=sharing'
+        url = 'https://drive.google.com/file/d/1pKhAaHpV3bvsADYG9VH0N1lQ38YkpVbW/view?usp=drive_link'
         if st.button('Download',key=1):
             webbrowser.open_new_tab(url)
 
         st.write("Original dataset with new columns")
-        url1 = 'https://drive.google.com/file/d/1Pv40-AEDL0GyA64IsxdYjZ4fh2lq0zud/view?usp=sharing'
+        url1 = 'https://drive.google.com/file/d/1Pv40-AEDL0GyA64IsxdYjZ4fh2lq0zud/view?usp=drive_link'
         if st.button('Download', key=2):
             webbrowser.open_new_tab(url1)
 
         st.write("Authors with All PhD Granting Inst Data")
-        url2 = 'https://drive.google.com/file/d/1Pv40-AEDL0GyA64IsxdYjZ4fh2lq0zud/view?usp=sharing'
+        url2 = 'https://drive.google.com/file/d/1Pv40-AEDL0GyA64IsxdYjZ4fh2lq0zud/view?usp=drive_link'
         if st.button('Download',key=3):
             webbrowser.open_new_tab(url2)
 
         st.write("Authors with First Employer as Phd Granting Inst Data")
-        url3 = 'https://drive.google.com/file/d/1Pv40-AEDL0GyA64IsxdYjZ4fh2lq0zud/view?usp=sharing'
+        url3 = 'https://drive.google.com/file/d/1Pv40-AEDL0GyA64IsxdYjZ4fh2lq0zud/view?usp=drive_link'
         if st.button('Download',key=4):
             webbrowser.open_new_tab(url3)
 
         st.write("Author with 2nd or 3rd Employer as PhD Granting Inst Data")
-        url4 = 'https://drive.google.com/file/d/1vNZvY6HU_6FXpJQNOL84dFXn1zFUVde4/view?usp=sharing'
+        url4 = 'https://drive.google.com/file/d/1vNZvY6HU_6FXpJQNOL84dFXn1zFUVde4/view?usp=drive_link'
         if st.button('Download',key=5):
             webbrowser.open_new_tab(url4)
 
