@@ -15,11 +15,10 @@ from typing import Union, Dict
 from io import BytesIO, StringIO
 import json
 import pandas as pd
-import requests
-import pandas_profiling
-from streamlit_pandas_profiling import st_profile_report
+
+
 from PIL import Image
-import webbrowser
+
 
 
 # df = pd.read_excel("https://www2.census.gov/programs-surveys/mhs/tables/2022/puf2022.xls")
